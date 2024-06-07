@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/f0be6b4df9.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Home.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+  <title>alguma coisa relacionado a cafe</title>
+</head>
+<header>
+  <div class="Container">
+    <div class="Logo"><img src="Design sem nome.png"></div>
+      <nav class="nav">
+        <a href="#">Página Inicial</a>
+        <a href="#">Menu</a>
+        <a href="#">Sobre Nós</a>
+          
+            <button  class="pesquisa">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button  class="login">
+              <i class="fa-solid fa-user"></i>
+              <a href="Login.html"></a>
+            </button>
+         
+      </nav>
+  </div>
+</header>
+<body>
+  <script>
+     if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(function (registration) {
+                    console.log('Service Worker registrado com sucesso:', registration);
+                })
+                .catch(function (error) {
+                    console.log('Falha ao registrar o Service Worker:', error);
+                });
+        }
+  </script>
+
+
+  <div class="cards">
+    <div class="card1">
+      <img src="CaparóCoffee.webp" alt="bug1">
+      <p>Café Caparaó | Capsula - 10 unidades</p>
+      <p>R$ 24,00</p>
+       <button class="compra1">
+       Comprar
+      </button>
+      <button class="AC1">
+        Adicionar ao Carrinho
+      </button>
+    </div>
+    <div class="card2">
+      <img src="DripCoffee.webp" alt="bug2">
+      <p>Café Classico | Drip Coffee - 10 Sachês</p>
+      <p>R$ 25,00</p>
+      <button class="compra2">
+       Comprar
+      </button>
+      <button class="AC2">Adicionar ao Carrinho</button>
+    </div>
+    <div class="card3">
+      <img src="CafeSulDeMinas.webp" alt="bug3">
+      <p>Café Sul de Minas | Moído - 250G</p>
+      <p>R$ 28,00</p>
+      <button class="compra3">
+        Comprar
+      </button>
+      <button class="AC3">
+        Adicionar ao Carrinho
+      </button>
+    </div>
+  </div>
+  <div class="apresentacao">
+  <div class="texto">
+    <h1>
+      Cofe Kings
+    </h1>
+    <p>Projetamos um site com o intuito de vender café, de uma forma que seja mais rápida e precisa à sua pesquisa para comprar um determinado tipo de café. Como vocês podem ver, temos essas variações de produtos abaixo. </p>
+  </div>
+    <div class="video">
+      <iframe width="700" height="315" src="https://www.youtube.com/embed/PLmy1Qns_4Y?si=ruKciABPBL8CW3eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+  </div>
+  <div class="estoque">
+    <h1>NOSSOS CAFÉS</h1>
+    <ul class="main-tipo">
+      <li class="tipo">
+        <a class="tipo" href="Tipo1.html"> <img src="classico.webp" alt=""></a>
+        <h1>Café Classico</h1>
+        
+      </li>
+      <li class="tipo"><img src="Arara_Collection.webp" alt="">
+        <h1>Café Arara</h1>
+      </li>
+      <li class="tipo"><img src="cafes-especial-coffee-mais-luiz-paulo.webp" alt="">
+        <h1>Café Sul de Minas</h1>
+      </li>
+      <li class="tipo"><img src="ricardo_tavares_02.webp" alt="">
+        <h1>Café Chapada de Minas</h1>
+      </li>
+      <li class="tipo"><img src="colecao_gabriel_nunes.webp" alt="">
+        <h1>Café Cerrado Mineiro</h1>
+      </li>
+      <li class="tipo"><img src="Geisha_Collection.webp" alt="">
+        <h1>Café Geisha</h1>
+      </li>
+    </ul>
+  </div>
+  <div class="intro-main">
+    <div class="intro">
+      <h1>Café Classico</h1>
+      <p>Agora que você já sabe a definição de café especial, vale conhecer as especificidades de cada produto da Coffee++. Vamos começar com o Café Clássico. A bebida reúne o café com a delicadeza do chocolate ao leite, doce de leite e frutas secas.</p>
+    </div>
+    <div class="intro">
+      <h1>Café Arara</h1>
+      <p>O Café Arara destaca o protagonismo do Brasil no mundo do café. Cultivado na região da Chapada de Minas, este café especial 100% arábica é uma verdadeira delícia. Suas notas sensoriais de caramelo e chocolate intenso criam uma experiência única. Além disso, o processo de pós-colheita por fermentação natural confere a este café um sabor distinto e inesquecível. Descubra o sabor verdadeiro do café brasileiro com o Café Arara.</p>
+    </div>
+    <div class="intro">
+      <h1>Café Sul de Minas</h1>
+      <p>A região do Sul de Minas produz café 100% arábica com notas sensoriais de goiaba, frutas roxas e muito caramelo. O responsável é o produtor Luiz Paulo Pereira, da Fazenda Santuário do Sul. Foi nesse lugar bucólico que, em 2005, o produtor e a família chegaram ao recorde de café com a pontuação mais alta do Cup of Excellence (com 95.85 pontos), que, inclusive, até hoje não foi batido.</p>
+    </div>
+    <div class="intro">
+      <h1>Café Chapada de Minas</h1>
+      <p>Diretamente da Fazenda Primavera, na região da Chapada de Minas, o produtor Ricardo Tavares convida você a experimentar um café especial 100% arábica com notas florais, damasco, baunilha e frutas secas. Uma mistura de sabores que levou o título de Melhor Café do Brasil pelo campeonato Cup of Excellence e ainda alcançou a maior pontuação do mundo (com 93.89 pontos) na mesma competição. Isso, depois de disputar com mais de 15 países produtores do planeta.</p>
+    </div>
+    <div class="intro">
+      <h1>Café Cerrado Mineiro</h1>
+      <p>Já o produtor Gabriel Nunes apresenta o café 100% arábica com notas sensoriais de doce de marmelo e frutas amarelas, diretamente do Cerrado Mineiro, especificamente da Fazenda Bom Jardim. O idealizador foi campeão do Cup of Excellence em 2017.</p>
+    </div>
+    <div class="intro">
+      <h1>Café Geisha</h1>
+      <p>O café Geisha tem notas sensoriais que lembram flores de jasmim, carambola madura, com acidez equilibrada de limão-taiti. Esse sabor foi descoberto em 1931, na região sul da Etiópia, na África. Ele foi acolhido pela família imperial japonesa como bebida oficial do palácio. Para garantir que esses grãos fiquem no Brasil, a Coffee++ juntou produtores apaixonados em todo o país. Ele é um café exigente que pede carinho no plantio, cuidado exclusivo e paciência na colheita.</p>
+    </div>
+  </div>  
+</body>
+</html>
